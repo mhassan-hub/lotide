@@ -40,3 +40,5 @@ assertArraysEqual(map(words, word => word[0]), ['G', 'M', 'V']); // Passes
 assertArraysEqual(map(soccerPlayers, player => player[0]), ['R', 'M', 'M', 'K', 'r']); //Fails
 assertArraysEqual(map(soccerPlayers, player => player[0]), ['R', 'M', 'M', 'K', 'R']); //Passes
 assertArraysEqual(map(randomList, num => num[0]), ['2', '3', '6', '3', '7', '2']); //Passes
+
+module.exports = map;
